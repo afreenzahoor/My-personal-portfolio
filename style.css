@@ -1,0 +1,121 @@
+*{
+    margin:0;   
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Popins' sans-serif;
+}
+body{
+    background:#05050d;
+    color:white;
+}
+
+/* Top Navigation */
+div{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 70px;
+}
+
+/* Logo */
+.logo img{
+    width:65px;
+    height:auto;
+}
+
+/* Navigation */
+nav{
+    display:flex;
+    align-items:center;
+}
+.main{
+    background:#05050d;
+    position: sticky;
+    top: 0;
+    
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 18px;
+    font-size:18px;
+    transition:.3s;
+    
+}
+
+nav a:hover{
+    color:#e22bc0;
+}
+
+/* Contact Button */
+button{
+    padding:15px 32px;
+    border:2px solid #e22bc0;
+    background:transparent;
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+button:hover{
+    background:#e22bc0;
+}
+
+button a{
+    color:white;
+    text-decoration:none;
+}
+
+/* Hero Section */
+.hero{
+    padding:120px 80px;
+    width:55%;
+}
+.hero h3{
+    color:#e22bc0;
+    letter-spacing:4px;
+    margin-bottom:15px;
+}
+
+.hero h1{
+    font-size:72px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.hero h2{
+    color:#d6d6d6;
+    font-size:34px;
+    margin-bottom:25px;
+}
+
+.hero p{
+    color:#bfbfbf;
+    font-size:20px;
+    line-height:35px;
+    width:520px;
+    margin-bottom:40px;
+}
+
+/* Hero Buttons */
+.hero button{
+    margin-right:20px;
+}
+
+.hero button:first-of-type{
+    background:#e22bc0;
+}
+
+.hero button:first-of-type:hover{
+    background:#e22bc0;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:40px;
+    margin-top:80px;
+    color:#aaa;
+}
