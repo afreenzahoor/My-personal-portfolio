@@ -1,121 +1,162 @@
-*{
-    margin:0;   
-    padding:0;
-    box-sizing:border-box;
-    font-family: 'Popins' sans-serif;
-}
-body{
-    background:#05050d;
-    color:white;
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Top Navigation */
-div{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 70px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #eef4fb;
+}
+
+/* Header */
+header {
+  padding: 30px 40px;
+}
+/* .pricing-section */
+.pricing-container{
+   text-align: center;
+   padding: 60px 20px;
+}
+.pricing h1{
+  margin: bottom 40px; 
+
+}
+.pricing-container{
+   display: flex;
+   justify-content: center;
+   align-items: stretch;
+   gap:20px;
+   flex-wrap: wrap;
+}
+.card1{
+  background-color: white;
+  width: 280px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10 rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+  flex-grow: 1;
+  max-width: 303px;
+}
+.card1 button{
+  margin-top: auto;
+  padding: 12px;
+  background: color#3730a3;
+  background-color: #c21872;
+  color: rgb(255, 255, 255);
+  border:none ;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card2{
+  background-color: white;
+  margin-top: 20px;
+  width: 280px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10 rgba(0, 0,0, 1);
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+  flex-grow: 1;
+  max-width: 303px;
+
+}
+.card3{
+  background-color: white;
+  width: 280px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10 rgba(0, 0,0, 1);
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+  margin-top: 20px;
+  flex-grow: 1;
+  max-width: 303px;
+
+}
+/* Navbar */
+.navbar {
+   position: sticky;
+  top: 0;
+  background: #fff;
+  border-radius: 40px;
+  padding: 18px 40px;
+  
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
 }
 
 /* Logo */
-.logo img{
-    width:65px;
-    height:auto;
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-/* Navigation */
-nav{
-    display:flex;
-    align-items:center;
+.logo img {
+  width: 35px;
 }
-.main{
-    background:#05050d;
-    position: sticky;
-    top: 0;
-    
-}
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:0 18px;
-    font-size:18px;
-    transition:.3s;
-    
-}
-
-nav a:hover{
-    color:#e22bc0;
-}
-
-/* Contact Button */
 button{
-    padding:15px 32px;
-    border:2px solid #e22bc0;
-    background:transparent;
-    color:white;
-    border-radius:10px;
-    cursor:pointer;
-    font-size:16px;
-    transition:.3s;
+   margin-top: auto;
+  padding: 12px;
+  background: color #e5469d;
+  color: white;
+  border:none ;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-button:hover{
-    background:#e22bc0;
+.btn2{
+  background-color: #c21872;
+color: white;
+}
+.btn3{
+  background-color:#c21872 ;
+  color: white;
+
+}
+.logo h2 {
+  color: #0b2942;
 }
 
-button a{
-    color:white;
-    text-decoration:none;
+/* Links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 45px;
 }
 
-/* Hero Section */
-.hero{
-    padding:120px 80px;
-    width:55%;
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  
 }
-.hero h3{
-    color:#e22bc0;
-    letter-spacing:4px;
-    margin-bottom:15px;
-}
-
-.hero h1{
-    font-size:72px;
-    font-weight:bold;
-    margin-bottom:15px;
+.header{
+position: sticky;
+  top: 0;
 }
 
-.hero h2{
-    color:#d6d6d6;
-    font-size:34px;
-    margin-bottom:25px;
+/* Button */
+.button{
+  text-decoration: none;
+  background: #d94690;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 15px;
+  font-weight: 600;
+  transition: 0.3s;
 }
 
-.hero p{
-    color:#bfbfbf;
-    font-size:20px;
-    line-height:35px;
-    width:520px;
-    margin-bottom:40px;
-}
-
-/* Hero Buttons */
-.hero button{
-    margin-right:20px;
-}
-
-.hero button:first-of-type{
-    background:#e22bc0;
-}
-
-.hero button:first-of-type:hover{
-    background:#e22bc0;
-}
-
-/* Footer */
-footer{
-    text-align:center;
-    padding:40px;
-    margin-top:80px;
-    color:#aaa;
+.button:hover {
+  background: #c21872;
 }
