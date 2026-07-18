@@ -1,162 +1,110 @@
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body{
+  background-color: white;
+  color:rgb(255, 38, 0);
 }
-
-body {
+h1{
   font-family: Arial, Helvetica, sans-serif;
-  background: #eef4fb;
-}
-
-/* Header */
-header {
-  padding: 30px 40px;
-}
-/* .pricing-section */
-.pricing-container{
-   text-align: center;
-   padding: 60px 20px;
-}
-.pricing h1{
-  margin: bottom 40px; 
-
-}
-.pricing-container{
-   display: flex;
-   justify-content: center;
-   align-items: stretch;
-   gap:20px;
-   flex-wrap: wrap;
-}
-.card1{
-  background-color: white;
-  width: 280px;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 10 rgb(0, 0, 0);
-  display: flex;
-  flex-direction: column;
-  gap:15px;
-  flex-grow: 1;
-  max-width: 303px;
-}
-.card1 button{
-  margin-top: auto;
-  padding: 12px;
-  background: color#3730a3;
-  background-color: #c21872;
-  color: rgb(255, 255, 255);
-  border:none ;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.card2{
-  background-color: white;
-  margin-top: 20px;
-  width: 280px;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 10 rgba(0, 0,0, 1);
-  display: flex;
-  flex-direction: column;
-  gap:15px;
-  flex-grow: 1;
-  max-width: 303px;
-
-}
-.card3{
-  background-color: white;
-  width: 280px;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 10 rgba(0, 0,0, 1);
-  display: flex;
-  flex-direction: column;
-  gap:15px;
-  margin-top: 20px;
-  flex-grow: 1;
-  max-width: 303px;
-
-}
-/* Navbar */
-.navbar {
-   position: sticky;
-  top: 0;
-  background: #fff;
-  border-radius: 40px;
-  padding: 18px 40px;
-  
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-}
-
-/* Logo */
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.logo img {
-  width: 35px;
-}
-button{
-   margin-top: auto;
-  padding: 12px;
-  background: color #e5469d;
+  text-align: justify;
+  background-color: pink;
   color: white;
-  border:none ;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.btn2{
-  background-color: #c21872;
-color: white;
-}
-.btn3{
-  background-color:#c21872 ;
-  color: white;
+  text-align-last:center ;
+  direction: ltr;
+  border: 2px solid green;
 
 }
-.logo h2 {
-  color: #0b2942;
-}
-
-/* Links */
-.nav-links {
-  display: flex;
-  list-style: none;
-  gap: 45px;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 600;
-  
-}
-.header{
-position: sticky;
+header{
+  position: sticky;
   top: 0;
 }
+.demo1{
+  text-align:left;
+  font-family:'Courier New', Courier, monospace ;
 
-/* Button */
-.button{
-  text-decoration: none;
-  background: #d94690;
-  color: white;
-  padding: 14px 28px;
-  border-radius: 15px;
-  font-weight: 600;
-  transition: 0.3s;
+
 }
+.demo2{
+  text-align:right;
+  font-family: arial;
 
-.button:hover {
-  background: #c21872;
+}
+.demo3{
+  text-align:center;
+  font-family: 'Gill Sans';
+
+}
+img{
+  vertical-align: center;
+  width: 200px;
+  height:200px ;
+ 
+
+}
+span{
+  vertical-align:top ;
+}
+/*Text decoration line  */
+.demo4{
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-align: center;
+  vertical-align:top ;
+  text-decoration-style: dashed;
+  font-size:16px;
+}
+.demo5{
+  text-decoration-line: overline;
+  text-decoration-color: aqua;
+vertical-align:top ;
+  text-align: center;
+  text-decoration-style: dotted;
+
+}
+.demo6
+{
+  text-decoration: line-through;
+  text-decoration-color: brown;
+   vertical-align:top ;
+ text-decoration-style: solid;
+  text-align: center;
+  text-decoration-thickness: 2px;
+  font-variant: small-caps;
+}
+.demo7
+{
+  text-decoration-color: brown;
+   vertical-align:top ;
+ text-decoration-style: solid;
+  text-align: center;
+  text-indent:40px ;
+  letter-spacing: 5px;
+  font-style:italic;
+font-weight:bold;
+font-size:24px;
+font-family:Arial;
+}
+.box{
+  width: 500px;
+  height: 100px;
+  background-color: skyblue;
+  padding: 10px;
+  border: 5px double green;
+  margin: 20px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  
+}
+div1{
+  display: block;
+}
+div2{
+  display:inline-block ;
+  z-index: 1Opx;
+  display: flex;
+  display: column;
+  justify-content: center;
+  align-items: flex-start;
 }
